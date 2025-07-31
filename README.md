@@ -22,7 +22,7 @@ To use this module, you can include it in your Terraform configuration. Here's a
 
 ```hcl
 module "route53" {
-  source          = "Shanav-Technologies/route53/aws"
+  source          = "https://github.com/Shanav-Technologies/terraform-aws-route53.git"
   version         = "1.0.0"
   name            = "route53"
   environment     = "test"
@@ -54,7 +54,7 @@ module "route53" {
 
 ```hcl
 module "route53" {
-  source         = "Shanav-Technologies/route53/aws"
+  source         = "https://github.com/Shanav-Technologies/terraform-aws-route53.git"
   version        = "1.0.0"
   name           = "route53"
   environment    = "test"
@@ -87,7 +87,7 @@ module "route53" {
 
 ```hcl
 module "records" {
-  source         = "Shanav-Technologies/route53/aws"
+  source         = "https://github.com/Shanav-Technologies/terraform-aws-route53.git"
   version        = "1.0.0"
   name           = "records"
   environment    = "test"
@@ -154,7 +154,7 @@ module "records" {
 ```
 
 ## Example
-For detailed examples on how to use this module, please refer to the [examples](https://github.com/Shanav-Technologies/terraform-aws-route53-record/tree/master/examples) directory within this repository.
+For detailed examples on how to use this module, please refer to the [examples](https://github.com/Shanav-Technologies/terraform-aws-route53-record/tree/master/example) directory within this repository.
 
 ## Author
 Your Name Replace **MIT** and **Shanav-Technologies** with the appropriate license and your information. Feel free to expand this README with additional details or usage instructions as needed for your specific use case.
