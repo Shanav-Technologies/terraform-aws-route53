@@ -154,13 +154,13 @@ module "records" {
 ```
 
 ## Example
-For detailed examples on how to use this module, please refer to the [examples](https://github.com/Shanav-Technologies/terraform-aws-route53/tree/main/example) directory within this repository.
+For detailed examples on how to use this module, please refer to the [examples](https://github.com/Shanav-Technologies/terraform-aws-route53/tree/main/_example) directory within this repository.
 
 ## Author
 Your Name Replace **MIT** and **Shanav-Technologies** with the appropriate license and your information. Feel free to expand this README with additional details or usage instructions as needed for your specific use case.
 
 ## License
-This project is licensed under the **MIT** License - see the [LICENSE](https://github.com/Shanav-Technologies/terraform-aws-route53-record/blob/master/LICENSE) file for details.
+This project is licensed under the **MIT** License - see the [LICENSE](https://github.com/Shanav-Technologies/terraform-aws-route53/blob/main/LICENSE) file for details.
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
